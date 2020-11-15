@@ -22,6 +22,10 @@ img {
 	padding: 0 15px;
 }
 
+.portfolio {
+	cursor: pointer;
+}
+
 .portfolio__content {
 	position: relative;
 	cursor: pointer;
@@ -65,4 +69,10 @@ img {
 .portfolio__content:hover .portfolio__links {
 	visibility: initial;
 	opacity: 1;
+}
+
+.portfolio__title {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 26px;
 }
